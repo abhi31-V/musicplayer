@@ -40,7 +40,7 @@ for(item of s)
 im[i].classList.add("anime");
 
           r[i].play()
-document.getElementById("ids").innerHTML='||'
+document.getElementById("ids").innerHTML='|>>'
       }
       else if(bt=='>>')
       {r[i].pause()
@@ -57,7 +57,7 @@ document.getElementById("ids").innerHTML='||'
         im[i].classList.add("anime");
      
 r[i].play()
-document.getElementById("ids").innerHTML='||'
+document.getElementById("ids").innerHTML='|>>'
       }
   
     });
