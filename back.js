@@ -38,8 +38,9 @@ for(item of s)
           }
           document.getElementById('im').src=im[i]
 im[i].classList.add("anime");
-document.getElementById("ids").innerHTML='||'
+
           r[i].play()
+document.getElementById("ids").innerHTML='||'
       }
       else if(bt=='>>')
       {r[i].pause()
@@ -54,8 +55,9 @@ document.getElementById("ids").innerHTML='||'
         }
         document.getElementById('im').src=im[i]
         im[i].classList.add("anime");
-        document.getElementById("ids").innerHTML='|| '
+     
 r[i].play()
+document.getElementById("ids").innerHTML='||'
       }
   
     });
